@@ -87,23 +87,13 @@
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
-                width: 58%;
-            }
-        }
-    }
-}
-
-@media (min-width: 760px) {
-    .header {
-        .header__nav_container {
-            .header__desktop_menu {
                 width: 62%;
             }
         }
     }
 }
 
-@media (min-width: 760px) {
+@media (min-width: 1024px) {
     .header {
         .header__nav_container {
             .header__desktop_menu {
