@@ -1,0 +1,198 @@
+.download {
+    width: 100%;
+    margin-top: -1px;
+
+    .download__container {
+        padding: 100px 24px;
+        background-color: #F9FBFD;
+        border-bottom-left-radius: 100px;
+    
+        .download__container_item {
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            padding: 30px 0;
+        
+            img {
+                margin-bottom: 24px;
+            }
+        
+            h4,p {
+                color: #202020;
+            }
+        
+            h4 {
+                font-weight: 700;
+                font-size: 24px;
+                margin: 0;
+                margin-bottom: 11px;
+            }
+            p {
+                font-size: 18px;
+                margin: 0;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .download__section {
+        width: 100%;
+        padding: 0 24px;
+        margin-bottom: 40px;
+        
+        h4 {
+            color: white;
+            font-size: 30px;
+            font-weight: 700; 
+            text-align: center;
+            margin-top: 60px;
+        }
+        .download__btn_box {
+            width: 70%;
+            text-align: center;
+            margin: auto;
+            margin-top: 40px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .download__img {
+        width: 100%;
+        background: url('../../assets/imgs/DownloadImg.png') no-repeat;
+        background-size: 140%;
+        height: 440px;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .download {
+
+        .download__container {
+            display: flex;
+            flex-direction: row;
+            text-align: left;
+            padding: 60px 100px;
+            justify-content: space-between;
+
+            .download__container_item {
+                width: 40%;
+                margin: 0 5%;
+            }
+        }
+    
+        .download__section {
+            padding: 0 100px;
+            width: 80%;
+            margin: auto;
+            margin-bottom: 60px;
+
+            h4 {
+                margin-top: 100px;
+            }
+
+            .download__btn_box {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                img {
+                    width: 140px;
+                    margin: 0 8px;
+                }
+            }
+        }
+    
+        .download__img {
+            height: 600px;
+        }
+        
+    }
+}
+
+@media (min-width: 1024px) {
+    .download {
+        background: url('../../assets/imgs/DownloadBackground.png') no-repeat center;
+        background-size: contain;
+        background-position: bottom;
+        height: 1080px;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: flex-end;
+        padding-top: 70px;
+        margin-top: -5px;
+
+        .download__container {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            padding: 0 200px 0 0;
+            justify-content: space-between;
+            border-radius: 0;
+            background-color: none;
+
+            .download__container_item {
+                width: 100%;
+                margin: 0 5%;
+                display: flex;
+                flex-direction: row;
+                align-items: start;
+
+                img {
+                    margin-top: 10px;
+                }
+
+                .download__item_data {
+                    text-align: left;
+                    margin-left: 44px;
+                }
+            }
+        }
+    
+        .download__section {
+            width: 44%;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            padding: 0 200px 0 20px;
+            margin: 0;
+            border-radius: 0;
+            margin: 150px 0 0 0;
+            text-align: left;
+
+            h4 {
+                text-align: left;
+                margin-top: 0;
+            }
+
+            .download__btn_box {
+                width: 100%;
+                text-align: left;
+
+                img {
+                    width: 49%;
+                    max-width: 198px;
+                    margin-right: 8px;
+                }
+            }
+        }
+    
+        .download__img {
+           display: none;
+        }
+        
+    }
+}
+
+@media (min-width: 1200px) {
+    .download {
+        margin-top: -55px;
+        top: 0;
+    }
+}

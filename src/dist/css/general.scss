@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+//FONTS
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/CircularStd-Book.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/CircularStd-Medium.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/CircularStd-Bold.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/CircularStd-Black.otf');
+    font-weight: 900;
+}
+
+
+
+//APP
+.App {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'CircularStd';
+    font-weight: 300;
+
+    .app__body {
+        background-color: #F83633;
+        margin-top: -1px;
+    }
+}
+
+
+//BUTTONS
+
+.btn {
+    border: solid 2px #FF2D3B;
+    padding: 10px 20px;
+    height: 45px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.primary_btn_outline {
+    border-radius: 30px;
+    background-color: white;
+    color: #FF2D3B;
+    
+}
+.primary_btn {
+    border-radius: 30px;
+    background-color: #FF2D3B;
+    color: white;
+    box-shadow: 0px 0px 18px -4px #FF2D3B;
+}
